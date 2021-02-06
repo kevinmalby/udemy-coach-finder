@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 
 import TheCoaches from './pages/TheCoaches.vue';
 import TheRequests from './pages/TheRequests.vue';
+import CoachContact from './pages/CoachContact.vue';
 
 const router = createRouter({
     history: createWebHistory(),
@@ -11,6 +12,11 @@ const router = createRouter({
             name: 'coaches',
             path: '/coaches',
             component: TheCoaches
+        },
+        {
+            name: "contactCoach",
+            path: '/coaches/contact',
+            component: CoachContact
         },
         {
             name: 'requests',

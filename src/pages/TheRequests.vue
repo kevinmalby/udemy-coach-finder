@@ -1,3 +1,5 @@
 <template>
-    <h3>The requests page</h3>
+    <q-page>
+        <h3>This is the rquests page</h3>
+    </q-page>
 </template>
